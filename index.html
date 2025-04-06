@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Meu Amor 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="hearts-container"></div>
+
+  <div class="login-container" id="login-container">
+    <h2>Bem-vinda, meu amor 💙</h2>
+    <input type="text" id="username" placeholder="Amor da Minha VIDA" disabled>
+
+    <input type="password" id="password" placeholder="Digite a senha">
+    <button onclick="login()">Entrar</button>
+    <p id="login-error" class="error"></p>
+  </div>
+
+  <div class="main-container hidden" id="main-container">
+    <div class="spotify">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6P7Uodyh8g40Nyc3no6R8E?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <div class="photos">
+        <div class="carousel-center">
+          <div class="carousel-wrapper">
+            <img id="carousel1" class="carousel-img active" src="img/img1.jpg" alt="Foto nossa">
+            <img id="carousel2" class="carousel-img" src="img/img2.jpg" alt="Foto nossa">
+          </div>
+        </div>
+      </div>            
+
+      <div class="text">
+        <button id="reveal-button">Clique para ver o poema 💌</button>
+      
+        <div id="poem" class="poem">
+          <h2>“Em Ti, Meu Tudo”</h2>
+          <p>
+            Te encontrei e o mundo mudou,<br>
+            Cores surgiram onde havia cinza,<br>
+            O tempo sorriu, o vento parou,<br>
+            E a vida virou linda poesia.
+          </p>
+          <p>
+            És minha paixão serena e forte,<br>
+            O fogo doce que me consome,<br>
+            Amor que me guia como o norte,<br>
+            E dá sentido ao meu nome.
+          </p>
+          <p>
+            Sinto orgulho em cada passo teu,<br>
+            Por quem és, por onde vais,<br>
+            Tua luz me envolve, me aqueceu,<br>
+            Nos dias bons… e nos dias mais.
+          </p>
+          <p>
+            Contigo, a felicidade não é passageira,<br>
+            Ela mora nos detalhes do teu ser,<br>
+            Nos risos soltos, na tarde inteira,<br>
+            No jeito leve de me entender.
+          </p>
+          <p>
+            E se um dia o mundo vacilar,<br>
+            E as dúvidas tentarem me alcançar,<br>
+            Saberei com firmeza, sem hesitar:<br>
+            És minha certeza, meu lar, meu par.
+          </p>
+          <p>
+            Melhor amiga, amor e abrigo,<br>
+            Tudo que eu sempre quis comigo.
+          </p>
+        </div>
+      </div>        
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
